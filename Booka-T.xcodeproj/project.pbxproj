@@ -11,6 +11,9 @@
 		4819A7B92CC373EF00372C65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7B82CC373EF00372C65 /* ContentView.swift */; };
 		4819A7BB2CC373F500372C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4819A7BA2CC373F500372C65 /* Assets.xcassets */; };
 		4819A7BE2CC373F500372C65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4819A7BD2CC373F500372C65 /* Preview Assets.xcassets */; };
+		4819A7C52CC3761100372C65 /* TablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C42CC3761100372C65 /* TablesView.swift */; };
+		4819A7C72CC3762300372C65 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C62CC3762300372C65 /* CameraView.swift */; };
+		4819A7C92CC37C2500372C65 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C82CC37C2500372C65 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		4819A7B82CC373EF00372C65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4819A7BA2CC373F500372C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4819A7BD2CC373F500372C65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4819A7C42CC3761100372C65 /* TablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesView.swift; sourceTree = "<group>"; };
+		4819A7C62CC3762300372C65 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		4819A7C82CC37C2500372C65 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				4819A7B62CC373EF00372C65 /* Booka_TApp.swift */,
 				4819A7B82CC373EF00372C65 /* ContentView.swift */,
+				4819A7C42CC3761100372C65 /* TablesView.swift */,
+				4819A7C62CC3762300372C65 /* CameraView.swift */,
+				4819A7C82CC37C2500372C65 /* ImageView.swift */,
 				4819A7BA2CC373F500372C65 /* Assets.xcassets */,
 				4819A7BC2CC373F500372C65 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4819A7C92CC37C2500372C65 /* ImageView.swift in Sources */,
 				4819A7B92CC373EF00372C65 /* ContentView.swift in Sources */,
+				4819A7C52CC3761100372C65 /* TablesView.swift in Sources */,
 				4819A7B72CC373EF00372C65 /* Booka_TApp.swift in Sources */,
+				4819A7C72CC3762300372C65 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				DEVELOPMENT_TEAM = 87K6L4S4V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Can you click it, SUCKA?!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +317,7 @@
 				DEVELOPMENT_TEAM = 87K6L4S4V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Can you click it, SUCKA?!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
