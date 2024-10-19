@@ -78,6 +78,7 @@ struct ImageView: View {
                             .foregroundColor(.red)
                             .font(.system(size: 20))
                     }
+                    Spacer()
                 }
                 .padding(.horizontal)
                 .padding(.bottom)
