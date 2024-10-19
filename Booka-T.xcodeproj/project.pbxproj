@@ -11,9 +11,11 @@
 		4819A7B92CC373EF00372C65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7B82CC373EF00372C65 /* ContentView.swift */; };
 		4819A7BB2CC373F500372C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4819A7BA2CC373F500372C65 /* Assets.xcassets */; };
 		4819A7BE2CC373F500372C65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4819A7BD2CC373F500372C65 /* Preview Assets.xcassets */; };
-		4819A7C52CC3761100372C65 /* TablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C42CC3761100372C65 /* TablesView.swift */; };
+		4819A7C52CC3761100372C65 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C42CC3761100372C65 /* ImagesView.swift */; };
 		4819A7C72CC3762300372C65 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C62CC3762300372C65 /* CameraView.swift */; };
 		4819A7C92CC37C2500372C65 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7C82CC37C2500372C65 /* ImageView.swift */; };
+		4819A7CB2CC3811200372C65 /* TappedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7CA2CC3811200372C65 /* TappedObject.swift */; };
+		4819A7CD2CC39D6C00372C65 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4819A7CC2CC39D6C00372C65 /* TagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +24,11 @@
 		4819A7B82CC373EF00372C65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4819A7BA2CC373F500372C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4819A7BD2CC373F500372C65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4819A7C42CC3761100372C65 /* TablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesView.swift; sourceTree = "<group>"; };
+		4819A7C42CC3761100372C65 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		4819A7C62CC3762300372C65 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		4819A7C82CC37C2500372C65 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		4819A7CA2CC3811200372C65 /* TappedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappedObject.swift; sourceTree = "<group>"; };
+		4819A7CC2CC39D6C00372C65 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 			children = (
 				4819A7B62CC373EF00372C65 /* Booka_TApp.swift */,
 				4819A7B82CC373EF00372C65 /* ContentView.swift */,
-				4819A7C42CC3761100372C65 /* TablesView.swift */,
+				4819A7C42CC3761100372C65 /* ImagesView.swift */,
 				4819A7C62CC3762300372C65 /* CameraView.swift */,
 				4819A7C82CC37C2500372C65 /* ImageView.swift */,
+				4819A7CA2CC3811200372C65 /* TappedObject.swift */,
+				4819A7CC2CC39D6C00372C65 /* TagView.swift */,
 				4819A7BA2CC373F500372C65 /* Assets.xcassets */,
 				4819A7BC2CC373F500372C65 /* Preview Content */,
 			);
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4819A7CB2CC3811200372C65 /* TappedObject.swift in Sources */,
 				4819A7C92CC37C2500372C65 /* ImageView.swift in Sources */,
 				4819A7B92CC373EF00372C65 /* ContentView.swift in Sources */,
-				4819A7C52CC3761100372C65 /* TablesView.swift in Sources */,
+				4819A7C52CC3761100372C65 /* ImagesView.swift in Sources */,
+				4819A7CD2CC39D6C00372C65 /* TagView.swift in Sources */,
 				4819A7B72CC373EF00372C65 /* Booka_TApp.swift in Sources */,
 				4819A7C72CC3762300372C65 /* CameraView.swift in Sources */,
 			);

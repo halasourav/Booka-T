@@ -16,13 +16,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             TabView {
-                TablesView()
+                ImagesView()
                     .tabItem {
-                        Image(systemName: "table.furniture.fill")
-                        Text("Tables")
+                        Image(systemName: "photo.fill")
+                        Text("Images")
                     }
 
-                // Show the "Opening Camera..." text initially
                 Text("Opening Camera...")
                     .onAppear {
                         // Open the camera when the tab is selected
